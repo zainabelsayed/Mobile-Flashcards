@@ -28,9 +28,11 @@ class AddDeck extends Component {
         this.toDecks()
     }
     toDecks = () => {
-        this.props.navigation.dispatch(CommonActions.goBack({
-            key:'Decks',
-        }))
+        const { title } = this.state
+        this.props.navigation.navigate(
+            'DeckDetail',
+            { id: title}
+          )
     }
     render () {
         const { title } = this.state

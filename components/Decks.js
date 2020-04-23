@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { saveDecks } from '../utils/api'
 import { receiveDecks } from '../actions/index'
-import { View,Text,StyleSheet,TouchableOpacity,ScrollView,AsyncStorage } from 'react-native'
+import { View,Text,StyleSheet,TouchableOpacity,ScrollView } from 'react-native'
 import { connect } from 'react-redux'
 
 
@@ -16,7 +16,7 @@ class Decks extends Component {
      
     render () {
         const { decks } = this.props
-       
+      
         return (
             <ScrollView style={styles.container}> 
                 <View style={[styles.container,{ alignItems:"center"}]}>

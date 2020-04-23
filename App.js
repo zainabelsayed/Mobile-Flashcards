@@ -64,6 +64,7 @@ function AddDeckStackScreen (){
     
   }}>
     <AddDeckStack.Screen name='Add Deck' component={AddDeck}/>
+    <AddDeckStack.Screen name='Deck Detail' component={DeckDetail}/>
   </AddDeckStack.Navigator>)
 }
 
