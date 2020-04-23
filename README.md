@@ -8,4 +8,4 @@ add flashcards to those decks, then take quizzes on those decks, also you can ad
 open yor terminel type `yarn install` and then `yarn start` and then scan the generated QR code useing your mobile which has Expo application installed on it. 
 
 ## Testing Platform
-Android 7.0
+Android 7.0 and Android 9.0
